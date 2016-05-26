@@ -1,0 +1,41 @@
+{
+  "name": "assemble-gulp-test",
+  "version": "0.1.0",
+  "description": "Assemble and Gulp Test",
+  "main": "/dist/index.html",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab.talkbox.io:gt-projects/hka_web.git"
+  },
+  "keywords": [
+    "assemble",
+    "gulp"
+  ],
+  "author": {
+    "name": "Chito Cheng",
+    "url": "http://www.chito.hk"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "assemble": "^0.12.0",
+    "assemble-core": "^0.18.1",
+    "assemble-render-file": "^0.7.0",
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-assemble": "^0.3.3",
+    "gulp-debug": "^2.1.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.6",
+    "handlebars": "^4.0.5",
+    "handlebars-helpers": "^0.6.1",
+    "i18n-js": "^1.0.0",
+    "path": "^0.12.7",
+    "sass": "^0.5.0"
+  }
+}
