@@ -57,7 +57,9 @@ gulp.task('assemble', ['load'], function() {
   app.pages('src/templates/pages/**/*.hbs');
 
   return app.toStream('pages')
-      .pipe(plumber())
+      .pipe(plumber(function(err){
+        console.log(err);
+      }))
       .pipe(debug())
       .pipe(app.renderFile())
       .pipe(app.dest('dist'))

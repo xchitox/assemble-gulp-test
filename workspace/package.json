@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@gitlab.talkbox.io:gt-projects/hka_web.git"
+    "url": "git@github.com:xchitox/assemble-gulp-test.git"
   },
   "keywords": [
     "assemble",
