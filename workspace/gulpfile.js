@@ -4,6 +4,7 @@ var path = require('path');
 var gulp = require('gulp');
 var assemble = require('assemble');
 var i18n = require('gulp-html-i18n');
+var inject = require('gulp-inject');
 var app = assemble();
 
 app.data({site: {title: 'Test'}});
