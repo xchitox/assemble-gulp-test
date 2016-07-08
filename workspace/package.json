@@ -20,7 +20,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "assemble": "^0.12.0",
+    "assemble": "^0.15.0",
     "gulp": "^3.9.1",
     "gulp-flatmap": "^1.0.0",
     "gulp-html-i18n": "^0.4.2",
